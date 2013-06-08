@@ -1,3 +1,6 @@
 (ns com.gfredericks.system-slash-exit)
 
-(defn exit [n] (System/exit n))
+(defn exit
+  "Calls (System/exit exit-status) to exit the JVM."
+  [exit-status]
+  (System/exit exit-status))
