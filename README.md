@@ -13,7 +13,7 @@ that you can't do with a static method. Use your imagination.
 In Leiningen's `project.clj`:
 
 ``` clojure
-[com.gfredericks/system-slash-exit "0.1.1"]
+[com.gfredericks/system-slash-exit "0.2.0"]
 ```
 
 ## Usage

@@ -1,4 +1,4 @@
-(defproject com.gfredericks/system-slash-exit "0.1.1"
+(defproject com.gfredericks/system-slash-exit "0.2.0"
   :description "(System/exit n) for clojure"
   :url "http://github.com/fredericksgary/system-slash-exit"
   :license {:name "Eclipse Public License"
