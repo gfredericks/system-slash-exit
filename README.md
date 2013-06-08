@@ -2,12 +2,19 @@
 
 A Clojure library designed to exit the jvm.
 
+## Wait what?
+
+It just has a var that wraps `(System/exit n)` so you can e.g.,
+redefine it in a test, or anything else that you can do with a var
+that you can't do with a static method. Use your imagination.
+
 ## Usage
 
 ``` clojure
 (require `[com.gfredericks.system-slash-exit :refer [exit]])
 
 (exit 0)
+```
 
 ## License
 
