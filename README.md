@@ -21,7 +21,7 @@ In Leiningen's `project.clj`:
 ``` clojure
 (require '[com.gfredericks.system-slash-exit :refer [exit]])
 
-(exit 0)
+(exit 0) ;; or just (exit)
 ```
 
 ## License
