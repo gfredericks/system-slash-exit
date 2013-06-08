@@ -11,7 +11,7 @@ that you can't do with a static method. Use your imagination.
 ## Usage
 
 ``` clojure
-(require `[com.gfredericks.system-slash-exit :refer [exit]])
+(require '[com.gfredericks.system-slash-exit :refer [exit]])
 
 (exit 0)
 ```
